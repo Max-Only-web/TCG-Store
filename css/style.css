@@ -1,0 +1,365 @@
+
+body{
+    background-color: darkgrey;
+}
+.titulos {
+    color: rgba(230, 215, 215, 0.856);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    background-color: #333;
+    padding: 20px; 
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+<style>
+    .contenedor {
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+        margin-top: 20px; 
+    }
+
+    .lista-estilizada {
+        list-style-type: none; 
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 14px; 
+        width: 25%; 
+    }
+
+    .lista-estilizada li {
+        margin: 5px 0;
+    }
+
+    .links {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .links:hover {
+        text-decoration: underline; 
+        color: #0056b3; 
+    }
+
+    .contenedor h3 {
+        font-size: 1.2em;
+        color: #333;
+        margin-bottom: 0;
+    }
+</style>
+
+#subtitulo {
+    font-size: 28px; 
+    font-weight: bold;
+    color: #076692; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+#puntos{
+    text-decoration: underline
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: calc(33.33% - 20px);
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .imagenes img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+.lista-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none; 
+    padding: 0;
+}
+
+.lista-imagenes li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+}
+
+.lista-imagenes .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-imagenes img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .lista-imagenes li {
+        flex-direction: row;
+        justify-content: center; 
+    }
+
+    .lista-imagenes .item {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-imagenes img {
+        margin-right: 10px; 
+    }
+}
+
+<style>
+    .contenedor {
+        display: flex;
+        justify-content: center; 
+        width: 100%; 
+    }
+
+    .lista-estilizada {
+        list-style-type: none;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 14px; 
+        width: 25%; 
+    }
+
+    .puntos {
+        margin: 5px 0; 
+        padding: 10px;
+        border-radius: 6px; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .puntos strong {
+        font-weight: bold;
+        font-size: 1.1em;
+        color: #333; 
+    }
+
+    .puntos p {
+        font-size: 0.9em; 
+        color: #111010; 
+        margin-top: 4px; 
+    }
+
+</style>
+#cartas-valiosas {
+    background-color: #486ed4; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#cartas-valiosas section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cartas-valiosas h1 {
+    color: #004f6a; 
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cartas-valiosas p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cartas-valiosas ol {
+    list-style-position: inside;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#cartas-valiosas ol li {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+#cartas-valiosas ol img {
+    display: block;
+    width: 100%; 
+    max-width: 300px; 
+    height: auto;
+    margin: 10px auto; 
+    border-radius: 5px; 
+}
+
+#cartas-valiosas .links {
+    display: block;
+    text-align: center;
+    color: #007BFF;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#cartas-valiosas .links:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+#cartas-valiosas footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    background-color: #004f6a;
+    color: white;
+
+    bottom: 0;
+    width: 100%;
+}
+
+<style>
+        ol {
+            padding-left: 20px;
+        }
+        ol li {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        /* Estilo para imágenes individuales */
+        .imagen-bloque {
+            display: block;
+            margin: 10px 0;
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        /* Estilo para imágenes en fila */
+        .imagenes-flex {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .imagenes-flex img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 30px;
+            font-weight: bold;
+        }
+    </style>
+    
+    <style>
+    /* Aplicamos estilos solo si el body tiene el ID contacto */
+    body#contacto {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    /* Contenedor exclusivo para la página de contacto */
+    .contacto-container {
+        width: 90%;
+        max-width: 600px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        display: grid;
+        gap: 15px;
+    }
+    form {
+        display: grid;
+        gap: 15px;
+    }
+    .form-group {
+        display: grid;
+        gap: 5px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input, select {
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    fieldset {
+        border: none;
+        padding: 0;
+    }
+    .genero-group {
+        display: grid;
+        gap: 5px;
+    }
+    .checkbox-label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        padding: 12px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+    .links {
+        text-align: center;
+        font-weight: bold;
+        color: #007bff;
+        text-decoration: none;
+        display: block;
+        margin-top: 10px;
+    }
+    .links:hover {
+        text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+</style>
