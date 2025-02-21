@@ -359,38 +359,28 @@ body{
         margin-top: 10px;
     }
 </style>
-
-/* 🔹 MEDIA QUERIES PARA RESPONSIVIDAD */
-
-/* 📌 Para tabletas (menos de 900px) */
 @media (max-width: 900px) {
     .imagenes {
         flex-wrap: wrap;
     }
-
     .imagenes img {
         width: 180px;
     }
-
     .lista-estilizada {
         max-width: 90%;
     }
 }
-
 @media (max-width: 600px) {
     .titulos {
         font-size: 1.8rem;
     }
-
     #subtitulo {
         font-size: 1.2rem;
     }
-
     .imagenes {
         flex-direction: column;
         align-items: center;
     }
-
     .imagenes img {
         width: 80%;
         max-width: 300px;
