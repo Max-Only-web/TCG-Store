@@ -257,7 +257,6 @@ body{
             font-weight: bold;
             margin-top: 15px;
         }
-        /* Estilo para imágenes individuales */
         .imagen-bloque {
             display: block;
             margin: 10px 0;
@@ -265,7 +264,6 @@ body{
             height: auto;
             border-radius: 10px;
         }
-        /* Estilo para imágenes en fila */
         .imagenes-flex {
             display: flex;
             gap: 10px;
@@ -283,7 +281,6 @@ body{
     </style>
     
     <style>
-    /* Aplicamos estilos solo si el body tiene el ID contacto */
     body#contacto {
         font-family: Arial, sans-serif;
         background-color: #f8f9fa;
@@ -292,7 +289,6 @@ body{
         align-items: center;
         height: 100vh;
     }
-    /* Contenedor exclusivo para la página de contacto */
     .contacto-container {
         width: 90%;
         max-width: 600px;
@@ -363,3 +359,48 @@ body{
         margin-top: 10px;
     }
 </style>
+
+/* 🔹 MEDIA QUERIES PARA RESPONSIVIDAD */
+
+/* 📌 Para tabletas (menos de 900px) */
+@media (max-width: 900px) {
+    .imagenes {
+        flex-wrap: wrap;
+    }
+
+    .imagenes img {
+        width: 180px;
+    }
+
+    .lista-estilizada {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulos {
+        font-size: 1.8rem;
+    }
+
+    #subtitulo {
+        font-size: 1.2rem;
+    }
+
+    .imagenes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenes img {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .lista-estilizada {
+        max-width: 100%;
+    }
+
+    .puntos {
+        padding: 10px;
+    }
+}
